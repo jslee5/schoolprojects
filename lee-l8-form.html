@@ -1,0 +1,116 @@
+<!DOCTYPE html>    
+<html lang="en">    
+<head>    
+         <!--Name: Jason Lee      
+              filename: lee-l8-form     
+	   Blackboard Username: jslee3    
+                Class Section: CTI.110.0003
+               Purpose:     
+           -->    
+    <meta charset="utf-8" />  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+    <title>L8 Concert Event Form</title>
+    <style>
+        body {
+            background-color: aquamarine;
+            font-family: Arial, Helvetica, sans-serif;
+            color: darkblue;
+            font-style: italic;
+        }
+        h1 {
+            color: darkblue;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-style: italic;
+        }
+        h2 {
+            color: blue;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-style: italic;
+        }
+        legend, button {
+            background-color: darkblue;
+            color: aquamarine;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 3px;
+        }
+        label {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+    </style>    
+</head>    
+<body>    
+<header>
+    <h1>Calculate Event Cost</h1>
+</header>
+<aside>
+    <p>There is a ticket fee of $0.50/ticket for orders with over 5 tickets. Otherwise the fee is $1.00/ticket</p>
+</aside>
+<form id="concertform" action="#" method="post">
+    <section>
+        <h2>User Information</h2>
+        <fieldset>
+            <legend>Name and Phone Number</legend>
+            <ul>
+                <li>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+                </li>
+                <li>
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phoneNumber">
+                </li>
+            </ul>
+        </fieldset>
+    </section>
+
+    <section>
+        <h2>Tickets</h2>
+        <fieldset>
+            <legend>Adult and Child Tickets</legend>
+            <ul>
+                <li>
+                    <label for="adult">How many adult Tickets?</label>
+                    <input type="text" id="adult" name="adultTickets">
+                </li>
+                <li>
+                    <label for="child">How many child Tickets?</label>
+                    <input type="text" id="child" name="childTickets">
+                </li>
+            </ul>
+        </fieldset>
+    </section>
+
+    <section>
+        <h2>Dates</h2>
+        <fieldset>
+            <legend>Concert Date Desired</legend>
+            <ul>
+                <li>
+                    <label>Chose a Date</label>
+                    <select name="date">
+                        <option value="Mar">March</option>
+                        <option value="Apr">April</option>
+                        <option value="May">May</option>
+                    </select>
+                </li>
+            </ul>
+        </fieldset>
+    </section>
+</form>
+<br>
+<br>
+<footer>
+    <button type="submit" id="Concertform">Sign-Up</button>
+<br>
+<br>
+    <a href="lee-l6-lp.html">Return to Main page</a>
+</footer>
+</body>    
+</html>
