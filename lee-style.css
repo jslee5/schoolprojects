@@ -1,0 +1,120 @@
+/* Name: Jason Lee      
+filename: lee-style.css   
+Blackboard Username: jslee3    
+  Class Section: CTI.110.0003
+ Purpose:     
+*/
+body {
+  background-color: aquamarine;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  background-color: white;
+  margin: 0 auto;
+  padding: 20px;
+  width: 800px;
+}
+
+header {
+  background-color: darkcyan;
+  color: black;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 18px;
+}
+
+nav {
+  width: 180px;
+  float: left;
+}
+
+nav ul {
+  padding: 0;
+  font-size: 15px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+main {
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: darkblue;
+}
+
+img {
+  border: 3px solid;
+  width: 160px;
+}
+
+.white {
+  color: white;
+}
+
+h2 {
+  color: darkblue;
+}
+
+footer {
+  clear: both;
+  padding: 10px;
+  background-color: cadetblue;
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 2px solid black;
+  padding: 2.5px;
+}
+
+thead {
+  background-color: darkcyan;
+  color: black;
+}
+
+table {
+  width: 35%;
+  float: left;
+  margin: 25px;
+}
+
+tbody {
+  color: darkblue;
+}
+
+tfoot {
+  font-size: 75%;
+  color: black;
+}
+
+caption {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 120%;
+  color: black;
+  border: 2px solid black;
+}
+
+legend {
+  background-color: darkblue;
+  color: whitesmoke;
+  padding: 7px;
+}
+
+.alignment {
+  display: block;
+  margin-bottom: 0.2em;
+}
+
+button {
+  background-color: darkblue;
+  color: whitesmoke;
+  font-size: 1.5em;
+}
